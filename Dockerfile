@@ -17,8 +17,5 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
-# Set environment variables
-ENV PYTHONUNBUFFERED=1
-
 # Run the application
 CMD ["python", "main.py"]
