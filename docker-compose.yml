@@ -12,7 +12,6 @@ services:
       - PYTHONUNBUFFERED=1
       - LOG_LEVEL=INFO
     volumes:
-      - .:/app
       - app-data:/app/data
     restart: on-failure
 
