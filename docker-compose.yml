@@ -9,7 +9,6 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - PYTHONUNBUFFERED=1
       - LOG_LEVEL=INFO
     volumes:
       - app-data:/app/data
